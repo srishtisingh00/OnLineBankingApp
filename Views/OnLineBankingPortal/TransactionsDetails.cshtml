@@ -1,0 +1,84 @@
+﻿@model IEnumerable<OnLineBankingApp.Models.Transaction>
+
+@{
+    ViewData["Title"] = "TransactionsDetails";
+    Layout = "~/Views/Shared/_AfterLayout.cshtml";
+}
+
+<h1>TransactionsDetails</h1>
+
+<p>
+    <a asp-action="DoTransactions">Fund Transfer</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OpeningBalance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClosingBalance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TraId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Beneficiary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Accounts)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpeningBalance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClosingBalance)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem =>  item.TransactionType.TransactionName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Beneficiary.BeneficiaryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Accounts.AccountId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status.StatusType)
+            </td>
+            <td>
+               
+              
+                <a asp-action="Delete" asp-route-id="@item.TransactionID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,52 @@
+﻿@model OnLineBankingApp.Models.Account
+
+@{
+    ViewData["Title"] = "AddAmount";
+    Layout = "~/Views/Shared/_AfterLayout.cshtml";
+}
+
+<h1>AddAmount</h1>
+
+<h4>Account</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddAmount">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="AccountId" />
+            <div class="form-group">
+                <label asp-for="CustomerID" class="control-label"></label>
+                <select asp-for="CustomerID" class="form-control" asp-items="ViewBag.CustomerID"></select>
+                <span asp-validation-for="CustomerID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" readonly/>
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Balance" class="control-label"></label>
+                <input asp-for="Balance" class="form-control" readonly />
+                <span asp-validation-for="Balance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label value="Add Amount" class="control-label"></label>
+                <input value="" placeholder="00.00" class="form-control" name="AddAmount" required />
+               
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfOpening" class="control-label"></label>
+                <input asp-for="DateOfOpening" class="form-control" readonly />
+                <span asp-validation-for="DateOfOpening" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add Amount" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="AccountDetails">Back to details</a>
+</div>
+

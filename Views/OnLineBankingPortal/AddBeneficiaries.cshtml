@@ -1,0 +1,65 @@
+﻿@model OnLineBankingApp.Models.Beneficiary
+
+@{
+    ViewData["Title"] = "AddBeneficiaries";
+    Layout = "~/Views/Shared/_AfterLayout.cshtml";
+}
+
+<h1>AddBeneficiaries</h1>
+
+<h4>Beneficiary</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddBeneficiaries">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BeneficiaryName" class="control-label"></label>
+                <input asp-for="BeneficiaryName" class="form-control" />
+                <span asp-validation-for="BeneficiaryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerID" class="control-label"></label>
+                <select asp-for="CustomerID" class ="form-control" asp-items="ViewBag.CustomerID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="BeneficiaryAccountNumber" class="control-label"></label>
+                <input asp-for="BeneficiaryAccountNumber" class="form-control" />
+                <span asp-validation-for="BeneficiaryAccountNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BankName" class="control-label"></label>
+                <input asp-for="BankName" class="form-control" />
+                <span asp-validation-for="BankName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IFSC" class="control-label"></label>
+                <input asp-for="IFSC" class="form-control" />
+                <span asp-validation-for="IFSC" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Branch" class="control-label"></label>
+                <input asp-for="Branch" class="form-control" />
+                <span asp-validation-for="Branch" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="BeneficiariesDetails">Back to Details</a>
+</div>
+

@@ -1,0 +1,207 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OnLineBankingApp
+build_property.RootNamespace = OnLineBankingApp
+build_property.ProjectDir = C:\Users\srish\Downloads\OnLineBankingApp-main (1)\OnLineBankingApp-main\OnLineBankingApp\OnLineBankingApp\OnLineBankingApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\srish\Downloads\OnLineBankingApp-main (1)\OnLineBankingApp-main\OnLineBankingApp\OnLineBankingApp\OnLineBankingApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Accounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Accounts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Accounts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Accounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Accounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Beneficiaries/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Beneficiaries/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Beneficiaries/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Beneficiaries/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Beneficiaries/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmVuZWZpY2lhcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Manager/AddAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxBZGRBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Manager/CustomerStatusUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxDdXN0b21lclN0YXR1c1VwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Manager/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Manager/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Manager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFuYWdlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/AccountDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxBY2NvdW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/AddAmount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxBZGRBbW91bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/AddBeneficiaries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxBZGRCZW5lZmljaWFyaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/BeneficiariesDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxCZW5lZmljaWFyaWVzRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/BeneficiariesDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxCZW5lZmljaWFyaWVzRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/DashBoard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxEYXNoQm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/DoTransactions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxEb1RyYW5zYWN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxTaWduVXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/OnLineBankingPortal/TransactionsDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT25MaW5lQmFua2luZ1BvcnRhbFxUcmFuc2FjdGlvbnNEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Transactions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Transactions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Transactions/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Transactions/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Transactions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY3Rpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Shared/_AfterLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZnRlckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-jh6a8n4fji
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Shared/_BeforeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CZWZvcmVMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-39s2qsnken
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xtk5s4w3dp
+
+[C:/Users/srish/Downloads/OnLineBankingApp-main (1)/OnLineBankingApp-main/OnLineBankingApp/OnLineBankingApp/OnLineBankingApp/Views/Shared/_ManagerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYW5hZ2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-7nx5y3ufkg

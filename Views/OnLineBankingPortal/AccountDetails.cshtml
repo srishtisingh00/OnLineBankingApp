@@ -1,0 +1,56 @@
+﻿@model IEnumerable<OnLineBankingApp.Models.Account>
+
+@{
+    ViewData["Title"] = "AccountDetails";
+    Layout = "~/Views/Shared/_AfterLayout.cshtml";
+}
+
+<h1>AccountDetails</h1>
+
+@*<p>
+    <a asp-action="Create">Create New</a>
+</p>*@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountId)
+            </th>
+          
+            <th>
+                @Html.DisplayNameFor(model => model.Balance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfOpening)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountId)
+            </td>
+               
+            <td>
+                @Html.DisplayFor(modelItem => item.Balance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfOpening)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.CustomerName)
+            </td>
+            <td>
+                    <a class="btn btn-sm btn-success" asp-action="AddAmount" asp-route-id="@item.AccountId">Add Amount</a> |
+                    <a class="btn btn-sm btn-primary" asp-action="Details" asp-route-id="@item.AccountId">Account Details</a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

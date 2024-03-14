@@ -1,0 +1,77 @@
+﻿@model IEnumerable<OnLineBankingApp.Models.Beneficiary>
+
+@{
+    ViewData["Title"] = "BeneficiariesDetails";
+    Layout = "~/Views/Shared/_AfterLayout.cshtml";
+}
+
+<h1>BeneficiariesDetails</h1>
+
+<p>
+    <a class="btn btn-sm btn-secondary" asp-action="AddBeneficiaries">Add New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BeneficiaryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BeneficiaryAccountNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BankName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IFSC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Branch)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BeneficiaryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BeneficiaryAccountNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BankName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IFSC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Branch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.CustomerName)
+            </td>
+            <td>
+                             
+                    <a class="btn btn-danger btn-sm" asp-action="BeneficiariesDelete" asp-route-id="@item.BeneficiaryID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
